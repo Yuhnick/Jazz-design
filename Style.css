@@ -1,0 +1,54 @@
+/* _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/ */
+/* _/_/_/_/_/_/_/_/ typographie _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Typo */
+body{
+	font-family: "Roboto", sans-serif;
+}
+
+/* Taille */
+/* scale  */
+:root{
+--size-sm: clamp(0.52rem, 0.59vi + 0.37rem, 0.84rem);
+--size-base: clamp(0.63rem, 0.91vi + 0.4rem, 1.13rem);
+--size-md: clamp(0.75rem, 1.36vi + 0.41rem, 1.5rem);
+--size-lg: clamp(0.9rem, 2vi + 0.4rem, 2rem);
+--size-xl: clamp(1.08rem, 2.88vi + 0.36rem, 2.66rem);
+--size-xxl: clamp(1.3rem, 4.1vi + 0.27rem, 3.55rem);
+--size-xxxl: clamp(1.56rem, 5.78vi + 0.11rem, 4.73rem);
+}
+/* https://www.fluid-type-scale.com/calculate?minFontSize=10&minWidth=400&minRatio=1.2&maxFontSize=18&maxWidth=1280&maxRatio=1.333&steps=sm%2Cbase%2Cmd%2Clg%2Cxl%2Cxxl%2Cxxxl&baseStep=base&prefix=size&useContainerWidth=false&includeFallbacks=false&useRems=true&remValue=16&decimals=2&previewFont=Inter&previewText=Almost+before+we+knew+it%2C+we+had+left+the+ground&previewWidth=1280 */
+
+.xxxl { font-size: var(--size-xxxl);}
+
+.base { font-size: var(--size-base);}
+
+body { font-size: var(--size-base);}
+
+h1{ font-size: var(--size-xxxl);}
+
+/* interlignage */
+
+p { line-height: 1.3; }
+
+/* interlettrage */
+p { letter-spacing: 0.02em; }
+h1 { letter-spacing: -0.01em;}
+
+
+/* couleur */
+
+:root {
+	--jazz-rouge: hsl(9, 79, 55);
+	--jazz-rouge-dark: hsl(9, 79, 28);
+}
+body { color: var(--jazz-rouge-dark); }
+h1 { color: var(--jazz-rouge); }
+
+/* Mise en Page */
+
+img { max-width: 100%;}	
+
+#Affiche { height: 300px; }
