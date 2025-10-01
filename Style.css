@@ -40,9 +40,9 @@ h1 { letter-spacing: -0.01em;}
 
 /* couleur */
 
-:root {
-	--jazz-rouge: hsl(9, 79, 55);
-	--jazz-rouge-dark: hsl(9, 79, 28);
+:root{
+	--jazz-rouge: hsl(9, 79%, 55%);
+	--jazz-rouge-dark: hsl(9, 79%, 28%);
 }
 body { color: var(--jazz-rouge-dark); }
 h1 { color: var(--jazz-rouge); }
