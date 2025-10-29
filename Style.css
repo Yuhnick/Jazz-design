@@ -44,7 +44,7 @@ h1 { letter-spacing: -0.01em;}
 	--jazz-rouge: hsl(9, 79%, 55%);
 	--jazz-rouge-dark: hsl(9, 79%, 28%);
 }
-body { color: var(--jazz-rouge-dark); }
+body { color: var(--jazz-rouge); }
 h1 { color: var(--jazz-rouge); }
 
 /* Mise en Page */
